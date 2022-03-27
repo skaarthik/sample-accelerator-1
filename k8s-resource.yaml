@@ -1,0 +1,9 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: kaarthik-sample-accelerator-1-resource
+spec:
+  git:
+    url: https://github.com/skaarthik/sample-accelerator-1
+    ref:
+      branch: main
